@@ -1,0 +1,15 @@
+<script>
+fetch("MOCK_DATA.csv").then(()=>{
+  //tries to get the file function delcared in es6 form
+  return res.text(;)
+  }).then((data) =>{
+  //returns data
+    const lines =  data.split('/n'); //split string on line return
+    const keys = lines.shift().split(','); // splits on the comma
+    console.log(data);// logs
+    document.write('<p>'+ data +'</p>')
+      }).catch(()=>{
+          //error logging for the fileIO
+          console.log(err.message);
+        });
+</script>

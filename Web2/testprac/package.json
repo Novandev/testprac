@@ -1,0 +1,32 @@
+{
+  "name": "testprac",
+  "version": "1.0.0",
+  "description": "testing for js",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doncurt/testprac.git"
+  },
+  "keywords": [
+    "TDD",
+    "BDD"
+  ],
+  "author": "Donovan Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doncurt/testprac/issues"
+  },
+  "homepage": "https://github.com/Doncurt/testprac#readme"
+}
