@@ -11,7 +11,13 @@ function displayUsers(users) {
   return usersStr;
 }
 
+function findPersonBy(users, id) {
+  return users[id];
+}
 
+function displayUserBy(id) {
+  return describeUser(findPersonBy(id));
+}
 
 const handleData = (data) => {
   const lines =  data.split('\n'); //split string on line return
