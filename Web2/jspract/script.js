@@ -1,7 +1,5 @@
 
-function describeUser(user) {
-  return `<div><strong>${user.full_name}</strong> ${user.gender} ${user.age}</div>`;
-}
+
 
 function displayUsers(users) {
   let usersStr = "";
