@@ -1,0 +1,101 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="description" content="A grid layout tutorial" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CSS Grid Tutorial</title>
+      <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body>
+
+
+        <!-- HEADER  SHOWCASE -->
+        <header id="showcase" class="grid">
+          <!--  to keep its styling separate we will have it as a bakground image, so it must be in own div-->
+          <div class="bg-image"></div>
+          <!-- will add padding to make the  text "wrap" -->
+          <div class="content-wrap">
+          <h1>Welcome To Acme Web Solutions</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates dolor deserunt minima perferendis illum ratione consectetur, numquam quaerat id fuga.</p>
+        </div>
+          <!-- this will be styled into a button -->
+          <a href="#section-b" class="btn">Read more</a>
+        </header>
+        <!-- END HEADER SHOWCASE -->
+
+        <!--  MAIN AREA-->
+        <main id>
+          <section id="section-a" class="grid">
+            <!-- This is used with the grid to span content. Used as a container to push thigs to the middle -->
+            <div class="content-wrap">
+              <h2 class="content-title">Web and Application Development</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quibusdam, doloremque quae voluptas, iste eum minima officiis commodi quasi aperiam dicta inventore quis vitae unde maxime. Alias, excepturi, ipsum? Obcaecati voluptatem, voluptate molestiae ipsa ipsum harum sequi, laudantium doloribus eius aperiam distinctio perspiciatis et temporibus odio illum dolore blanditiis tempora.</p>
+            </div>
+          </section>
+
+
+
+          <!--3 PANEL DISPLAY SECTION  -->
+          <section id="section-b" class="grid">
+            <!-- USING LI AS CARDS -->
+              <ul>
+                <!-- EACH <li></li> element will hold a card with styling -->
+                 <li>
+                   <div class="card">
+                     <img src="https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                     <!-- the text underneath the card -->
+                     <div class="card-content">
+                       <h3 class="card-title"> Web Development</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla et, fugit dolorum fuga nihil. Ex consectetur ab autem natus vel.</p>
+                   </div>
+                 </li>
+
+                 <li>
+                   <div class="card">
+                     <img src="https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                     <!-- the text underneath the card -->
+                     <div class="card-content"></div>
+                       <h3 class="card-title"> Mobile Applications</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla et, fugit dolorum fuga nihil. Ex consectetur ab autem natus vel.</p>
+                   </div>
+                 </li>
+
+                 <li>
+                   <div class="card">
+                     <img src="https://images.pexels.com/photos/6482/black-and-white-man-person-hands.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                     <!-- the text underneath the card -->
+                     <div class="card-content">
+                       <h3 class="card-title"> Marketing</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla et, fugit dolorum fuga nihil. Ex consectetur ab autem natus vel.</p>
+                   </div>
+                 </li>
+              </ul>
+          </section>
+          <!--  -->
+          <section id="section-c" class="grid">
+            <div class="content-wrap">
+              <h2 class="content-title">We handle all of your digital needs</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt qui ipsum error voluptatibus impedit itaque modi, iusto unde aspernatur aperiam.</p>
+            </div>
+          </section>
+
+          <!-- SECTION D about company and contact -->
+          <section id="section-d" class="grid">
+            <div class="box">
+              <h2 class="content-title">Contact Us</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum possimus sint commodi quibusdam facere consectetur dolor libero deserunt voluptatum.</p>
+              <p>Contact@contact.com</p>
+            </div>
+            <div class="box">
+              <h2 class="content-title">About Us</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum possimus sint commodi quibusdam facere consectetur dolor libero deserunt voluptatum.</p>
+          </section>
+          <footer id="main-footer" class="grid">
+            <div>Donny Web Solutions</div>
+            <div>Designed by Donovan</div>
+          </footer>
+        </main>
+    </body>
+    <script type="text/javascript" src="index.js"></script>
+</html>

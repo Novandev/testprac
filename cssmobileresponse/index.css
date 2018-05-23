@@ -1,0 +1,140 @@
+/*CORE STYES AND NOTES*/
+  /*All text is in the center,  backgrouns is dark grey  default font color is now white,font size is 1. 1 of any broweser regular rendering,higher line heights for readability*/
+body {
+  margin:0;
+  font-family: Arial,Helvetica,sans-serif;
+  background:#333;
+  color:#fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/*Image resizing setting the width to 100% of the container its in fixes this, the display is block due to it being on moble and not enough space, height auto fixes the height issue*/
+img {
+  display:block;
+  width:100%;
+  height:auto;
+}
+/*h1,h2,h3 CORE STYLES*/
+/*they will all have padding of 1x the screm defined at the top, and none on the sides*/
+h1,h2,h3 {
+  margin:0;
+  padding: 1em 0;
+}
+
+p{
+margin:0;
+padding: 1em 0;
+}
+/*button styling*/
+.btn{
+  /*this will keep the styling without having the elements run into eachother on mobile*/
+  display:inline-block;
+  background:#333;
+  color:#fff;
+  text-decoration: none;
+  /*this will make it display like a regular button*/
+  padding:1em 2em;
+  border:1px solid #666;
+  /*gives the element tope and bottom brething space*/
+  margin: .5em 0:
+}
+/*when button is hovered over*/
+.btn:hover{
+  background: #eaeaea;
+  color:#333;
+}
+/*CORE STYLES END*/
+
+
+/*HEADER SHOWCASE*/
+#showcase{
+  /*If the content in showcase is smaller than the minimum height, the minimum height will be applied.*/
+  min-height: 450px;
+  color:#fff;
+  text-align: center;
+}
+/*set opacity and such*/
+#showcase .bg-image {
+/*absolute so it will go OVER the #showcase div*/
+  position:absolute;
+/*set the background color and image, how it's centered, and make it non repeating*/
+background: #333 url('https://images.pexels.com/photos/594969/pexels-photo-594969.jpeg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/*to see the background hnow that its set*/
+width:100%;
+height:450px;       /*MUST BE THE SAME AS THE PARENT*/
+/*z-index indicates how "close" to you the image is. at -1 this should put it behind it's parent  element that it is covering*/
+z-index: -1;
+opacity:0.4;
+}
+
+#showcase h1{
+  /*space between the top and the iside words*/
+  padding-top: 100px;
+  /*removes space below to squish the workds together in the box*/
+  padding-bottom: 0;
+}
+#showcase .content-wrap, #section-a {
+  /*this will make it wrap at the sides*/
+  padding:0 1.5em;
+}
+/*HEADER SHOWCASE END*/
+
+
+/*SECTION A */
+
+#section-a {
+  /*lighter background color*/
+  background:#eaeaea;
+  /*text color*/
+  color:#333;
+  padding-bottom: 2em;
+}
+/*END SECTION A*/
+
+/*SECTION B*/
+#section-b{
+  /*gives badding around the element itself*/
+  padding:2em 1em 1em;
+}
+
+/*lets get rid of these pesky list dots*/
+#section-b ul{
+  list-style: none;
+  /*both of these should center them*/
+  margin:0;
+  padding:0;
+}
+
+#section-b li {
+  /*gives some space on just the bottom of the elements*/
+  margin-bottom: 1em;
+  /*turns the background to white*/
+  background:#fff;
+  /*gives the text color to grey*/
+  color:#333;
+}
+/*gives the card content txt the same text wrap effect*/
+.card-content{
+  padding:0 1.5em;
+}
+/*END SECTION B*/
+
+/*SECTION C*/
+#section-c{
+  /*WHITE BACKGROUND COLOR*/
+  background: #fff;
+  /*ark text*/
+  color:#333;
+  /*padding*/
+  padding:2em;
+}
+
+/*END SECTION C*/
+
+/*SECTION D BOXES*/
+/*select the first child to do this*/

@@ -1,0 +1,17 @@
+{
+  "name": "youtubesearchbar",
+  "version": "1.0.0",
+  "description": "youtube search bar using their api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-paginate": "^0.3.0",
+    "nodemon": "^1.17.3"
+  }
+}

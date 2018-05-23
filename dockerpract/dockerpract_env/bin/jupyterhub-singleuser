@@ -1,0 +1,6 @@
+#!/Users/donovanadams/Desktop/GitHub/dockerpract/dockerpract_env/bin/python3.6
+
+from jupyterhub.singleuser import main
+
+if __name__ == '__main__':
+    main()

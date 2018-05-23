@@ -1,0 +1,4 @@
+#!/Users/donovanadams/Desktop/GitHub/dockerpract/dockerpract_env/bin/python3.6
+
+from jupyterhub.app import main
+main()

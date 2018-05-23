@@ -1,0 +1,15 @@
+{
+  "name": "hamsteroathserver",
+  "version": "1.0.0",
+  "description": "Oath2 for hamster",
+  "main": "server.js",
+  "dependencies": {
+    "express-oauth-server": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donovan Adams",
+  "license": "ISC"
+}
