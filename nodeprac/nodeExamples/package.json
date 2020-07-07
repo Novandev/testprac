@@ -9,6 +9,6 @@
   "author": "“Donovan <donovan.adams@students.makeschool.com> (https://www.makeschool.com/portfolio/Donovan-Adams)",
   "license": "ISC",
   "dependencies": {
-    "npm": "^6.0.1"
+    "npm": "^6.14.6"
   }
 }
